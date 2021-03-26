@@ -1,3 +1,87 @@
-.rw_module .rw_module_button, .wiki-content .rw_module .rw_module_button {
-  color: red !important;
+#rw_header .rw_logo img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-height: 25px !important;
+	max-width: 300px;
+	display: list-item;
+}
+
+.rw_my_admin_menu {
+	display: none !important;
+}
+
+span.rw_item_count{
+	display: none !important;
+}
+
+.rw_portal_styling .rw_more_menu_button {
+	/*display: none !important;*/
+}
+
+#rw_wrapper .rw_banner {
+	position: absolute;
+	height: auto !important; 
+	width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 1) !important;
+}
+
+.rw_search_item {
+	padding-top: 0px !important;
+}
+
+.rw_search_item.rw_formatting_item .rw_search_module_container > div .rw_search_item .rw_search_icon {
+	bottom: auto !important;
+	left: auto !important;
+}
+
+#hWelcome {
+	width: 60%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: -40px !important;
+}
+
+.rw_navcontent_module .rw_formatting_item {
+	padding: 10px !important;
+	margin: 15px;
+	border: 1px solid #EEE;
+	border-radius: 10px;
+	background: #FFFFFF;
+       width: 80% !important;
+      margin-left: 10%;
+}
+
+.rw_formatting_item.rw_layout_2column .rw_cell {
+	padding: 10px !important;
+}
+
+.rw_item_secondary_text {
+	font-size: 14px !important;
+}
+
+.rw_formatting_item > .rw_cell h2.rw_item_primary_text {
+	font-size: 17px !important;
+	line-height: 1 !important;
+}
+
+.rw_navicon_module .rw_formatting_item {
+	padding: 10px 15px !important;
+	border: 1px solid #EEE;
+	margin: 10px !important;
+	width: 80% !important;
+	border-radius: 10px;
+       background: #FFFFFF;
+}
+
+#rw_footer .rw_item_content {
+	margin: 0px auto !important;
+}
+
+#rw_footer .rw_footer_background .rw_preview_background a, #rw_footer a, #rw_footer .rw_item_content a {
+	color: rgba(0, 0, 1, 1);
+	text-decoration: underline;
 }
