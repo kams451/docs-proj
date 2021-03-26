@@ -110,3 +110,7 @@ span.rw_item_count{
 	text-decoration: underline;
 }
 
+/* Writer Avatar */
+.rw_page_byline {
+	visbility: hidden;
+}
