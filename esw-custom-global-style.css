@@ -1,4 +1,8 @@
-/* custom */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+[lang|=en], body {
+	font-family: 'Nunito Sans', sans-serif;
+}
 
 #rw_header .rw_logo {
 	float: left;
