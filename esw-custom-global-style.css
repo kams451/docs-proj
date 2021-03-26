@@ -1,6 +1,6 @@
 /* custom */
 
-#rw_header.rw_navigation_mode_menu .rw_logo {
+#rw_header .rw_logo {
 	float: left;
 	width: auto;
 	position: relative;
