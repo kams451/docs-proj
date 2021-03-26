@@ -112,5 +112,5 @@ span.rw_item_count{
 
 /* Writer Avatar */
 .rw_page_byline {
-	visbility: hidden;
+	visbility: hidden !important;
 }
