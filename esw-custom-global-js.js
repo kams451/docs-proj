@@ -1,5 +1,9 @@
-	(function($) {
-	    AJS.toInit(function() {
-        alert("XYz');
-	    });
-	})(AJS.$);
+(function($) {
+    /**
+     * When the document is ready
+     */
+    AJS.toInit(function() {  
+       $('#rw_wrapper').prepend("Hello world!");
+       alert("Hello world!");          
+    });   
+})(AJS.$);
