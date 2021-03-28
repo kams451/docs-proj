@@ -118,3 +118,8 @@ span.rw_item_count{
 .rw_page_byline {
 	visibility: hidden !important;
 }
+
+.rw_image_filter_grayscale {
+	height: 50% !important;
+	width: 50% !important;
+}
