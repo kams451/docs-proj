@@ -19,12 +19,7 @@
 	z-index: 10;
 }
 
-/*#rw_header #rw_my_menu {
-	float: right;
-	position: relative;
-	z-index: 2;
-	margin-right: 10%;
-}*/
+
 #rw_header .rw_login_button {
 	margin-right: 12% !important;
 }
