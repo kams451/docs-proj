@@ -23,6 +23,14 @@
 #rw_header .rw_login_button {
 	margin-right: 12% !important;
 	margin-left: -10% !important;
+	background: rgba(112,201,191,1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	/* border-color: rgba(74, 74, 73, 1); */
+	padding: 6px 18px;
+	height: auto;
+	line-height: 1;
+	border-radius: unset;
 }
 
 #rw_header #rw_my_menu{  
