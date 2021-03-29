@@ -222,13 +222,14 @@ a.primaryButton {
 }
 
 .iconcard2 {
-	width: 20%;
+	width: 100%;
 	height: 135px;
 	display: inline-block;
 	vertical-align: middle;
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 5px;
 	position: relative;
+	background: rgba(255, 255, 255, 1);
 }
 
 .iconcard2-icon {
@@ -241,7 +242,7 @@ a.primaryButton {
 	position: absolute;
 	bottom: 5%;
 	text-align: center;
-	width: 20%;
+	width: 100%;
 }
 
 .iconcard:hover, .iconcard2:hover {
