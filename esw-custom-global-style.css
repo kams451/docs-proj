@@ -249,3 +249,7 @@ a.primaryButton {
 	background-color: rgba(0,0,0,0.04);
 	text-decoration: none !important;
 }
+
+.rw_module_title h3{
+	font-size: 26px !important;
+}
