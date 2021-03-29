@@ -200,7 +200,7 @@ a.primaryButton {
 /* Icon card */
 .iconcard {
 	width: 20%;
-	height: 100px;
+	height: 135px;
 	display: inline-block;
 	vertical-align: middle;
 	border: 1px solid rgba(0,0,0,0.2);
@@ -214,4 +214,9 @@ a.primaryButton {
 	top: 15%;
 	left: 35%;
 	color: rgba(16, 24, 32, 1);
+}
+.iconcard-text {
+	position: absolute;
+	bottom: 5%;
+	left: 35%;
 }
