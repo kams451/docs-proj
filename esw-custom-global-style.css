@@ -180,7 +180,7 @@ span.rw_item_count{
 .ml13{margin-left: 13% !important;}
 .nl{clear: both;}
 
-a.carbonadsLinks {color: #111111 !important;} 
+a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;} 
 
 
 /* Primary button colour */
@@ -219,4 +219,9 @@ a.primaryButton {
 	position: absolute;
 	bottom: 5%;
 	left: 35%;
+}
+
+.iconcard:hover {
+	background-color: rgba(0,0,0,0.04);
+	text-decoration: none !important;
 }
