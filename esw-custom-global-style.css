@@ -154,3 +154,7 @@ span.rw_item_count{
 	text-align: left;
 	background-color: rgba(0,0,0,0.05);
 }
+.carbon-icon {
+	float: left;
+	margin-left: -145px;	
+}
