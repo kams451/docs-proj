@@ -183,10 +183,14 @@ a.carbonadsLinks {color: #111111 !important;}
 
 /* Primary button colour */
 a.primaryButton {
+	clear: both;
 	background: #414141;
-	border: 1px solid #414141;
+	border: 1px solid #414141 !important;
 	box-sizing: border-box;
 	border-radius: 4px;
-	text-transfomr: capitalize;
+	text-transfom: capitalize !important;
 	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	padding: 5px 17px;
+	margin-top: 45px !important;
 }
