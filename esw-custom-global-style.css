@@ -9,6 +9,7 @@
 .material-icons.md-24, .material-icons-outlined.md-24 { font-size: 24px; }
 .material-icons.md-36, .material-icons-outlined.md-36 { font-size: 36px; }
 .material-icons.md-48, .material-icons-outlined.md-48 { font-size: 48px; }
+.material-icons.md-64, .material-icons-outlined.md-64 { font-size: 64px; }
 
 [lang|=en], body {
 	font-family: 'Nunito Sans', sans-serif !important;
@@ -203,5 +204,13 @@ a.primaryButton {
 	vertical-align: middle;
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 5px;
-	margin-left: 11%;	
+	margin-left: 11%;
+	position: relative;
+}
+
+.iconcard-icon {
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	color: #555555;
 }
