@@ -139,3 +139,18 @@ span.rw_item_count{
 	height: 36px !important;
 	width: 36px !important;
 }
+
+/*HomePage Contents */
+.carbonads {
+	border-radius: 4px;
+	display: inline-block;
+	position: static;
+	max-width: 40%;
+	padding: 15px 15px 15px 160px;
+	margin: 2rem 0;
+	overflow: hidden;
+	font-size: .8125rem;
+	line-height: 1.4;
+	text-align: left;
+	background-color: rgba(0,0,0,0.05);
+}
