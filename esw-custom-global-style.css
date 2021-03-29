@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 [lang|=en], body {
 	font-family: 'Nunito Sans', sans-serif !important;
 }
@@ -166,8 +172,4 @@ span.rw_item_count{
 .cabonads.ml10{margin-left: 10% !important;}
 .cabonads.nl{clear: both;}
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
+.carbonadsLinks a {color: reset; text-decoration: normal;} 
