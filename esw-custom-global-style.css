@@ -29,6 +29,10 @@
 	margin-right: 12% !important;
 }
 
+#rw_header #rw_my_menu ul li:nth-child(3) {  
+	margin-right: 12% !important;
+}
+
 #rw_header .rw_logo img{
 	position: relative;
 	top: 50%;
