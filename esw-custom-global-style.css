@@ -142,7 +142,7 @@ span.rw_item_count{
 
 /*HomePage Contents */
 .carbonads {
-	border-radius: 4px;
+	border-radius: 10px;
 	display: inline-block;
 	position: static;
 	max-width: 40%;
@@ -152,7 +152,7 @@ span.rw_item_count{
 	font-size: .8125rem;
 	line-height: 1.4;
 	text-align: left;
-	background-color: rgba(0,0,0,0.05);
+	background-color: rgba(255,255,255,255.05);
 }
 .carbon-icon {
 	float: left;
