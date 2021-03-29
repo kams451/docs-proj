@@ -168,8 +168,8 @@ span.rw_item_count{
 	padding: 5px 10px;
 	border-radius: 10px;
 }
-.cabonads.ml3{margin-left: 3% !important;}
-.cabonads.ml10{margin-left: 10% !important;}
-.cabonads.nl{clear: both;}
+.ml3{margin-left: 3% !important;}
+.ml10{margin-left: 10% !important;}
+.nl{clear: both;}
 
 .carbonadsLinks a {color: reset; text-decoration: normal;} 
