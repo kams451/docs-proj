@@ -221,7 +221,30 @@ a.primaryButton {
 	left: 35%;
 }
 
-.iconcard:hover {
+.iconcard2 {
+	width: 20%;
+	height: 135px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	position: relative;
+}
+
+.iconcard2-icon {
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	color: rgba(16, 24, 32, 1);
+}
+.iconcard2-text {
+	position: absolute;
+	bottom: 5%;
+	text-align: center;
+	width: 20%;
+}
+
+.iconcard:hover, .iconcard2:hover {
 	background-color: rgba(0,0,0,0.04);
 	text-decoration: none !important;
 }
