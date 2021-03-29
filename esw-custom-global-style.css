@@ -162,6 +162,9 @@ span.rw_item_count{
 	padding: 5px 10px;
 	border-radius: 10px;
 }
+.cabonads.ml3{margin-left: 3%;}
+.cabonads.ml10{margin-left: 10%;}
+.cabonads.nl{clear: both;}
 
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
