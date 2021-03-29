@@ -152,8 +152,8 @@ span.rw_item_count{
 .carbonads {
 	border-radius: 10px;
 	display: inline-block;
-	position: static;
-	max-width: 42%;
+	position: relative;
+	max-width: 31%;
 	padding: 15px 15px 15px 160px;
 	margin: 0.7rem 0;
 	overflow: hidden;
