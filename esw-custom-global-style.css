@@ -272,3 +272,37 @@ a.primaryButton {
 .rw_item_hover {
 	border-radius: 10px;	
 }
+
+/* Developer Tools */
+.heroV1 {
+	position: relative;
+}
+
+.subHead {
+	width: 70%;
+	padding-top: 35px !important;
+}
+
+.pWithImage {
+	width: 50%;
+	padding-bottom: 35px;
+}
+
+.codeImage {
+	width: 450px;
+	position: absolute;
+	/* background: navajowhite; */
+	right: 10px;
+	top: 0px;
+}
+
+.codeImage img {
+	width: 450px;
+	margin: 0px;
+	padding: 0px;
+	-moz-box-shadow: 0 0 5px #000000;
+	-webkit-box-shadow: 0 0 5px #000000;
+	box-shadow: 0 0 5px #000000;
+	border-radius: 10px;
+}
+
