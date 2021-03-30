@@ -323,6 +323,7 @@ a.primaryButton {
 }
 
 .imageboard {
+	display: inline-block;
 	width: 25%;
 	margin-right: 9.14%;
 	background: rgba(252, 252, 252, 0.7);
