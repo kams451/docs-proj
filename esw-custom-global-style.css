@@ -254,3 +254,14 @@ a.primaryButton {
 	font-size: 26px !important;
 	color: rgba(0, 0, 0, 0.85) !important;
 }
+
+.pageHead {
+	width: 50%;
+	background: rgba(255, 255, 255,1);
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: -65px;
+	z-index: 9999;
+	position: relative;
+}
