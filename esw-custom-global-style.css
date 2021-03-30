@@ -235,7 +235,8 @@ a.primaryButton {
 .iconcard2-icon {
 	position: absolute;
 	top: 15%;
-	left: 35%;
+	/*left: 35%;*/
+	width: 100%;
 	color: rgba(16, 24, 32, 1);
 }
 .iconcard2-text {
