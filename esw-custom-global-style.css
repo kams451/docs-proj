@@ -322,3 +322,27 @@ a.primaryButton {
 	margin-top: 25px;
 }
 
+.imageboard {
+	width: 50%;
+	background: rgba(252, 252, 252, 0.05);
+	overflow: hidden;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 1px #000000;
+	-webkit-box-shadow: 0 0 1px #000000;
+	box-shadow: 0 0 1px #666666;
+}
+
+.imageboard img {
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(20%);
+	opacity: 0.75;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.imageboard-header {
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
