@@ -323,8 +323,9 @@ a.primaryButton {
 }
 
 .imageboard {
-	width: 50%;
-	background: rgba(252, 252, 252, 0.05);
+	width: 25%;
+	margin-right: 9.14%;
+	background: rgba(252, 252, 252, 0.7);
 	overflow: hidden;
 	border-radius: 10px;
 	-moz-box-shadow: 0 0 1px #000000;
@@ -345,4 +346,8 @@ a.primaryButton {
 	margin-top: 1px;
 	margin-bottom: 10px;
 	font-size: 20px;
+}
+
+.imageboard.lastboard {
+	margin-right: 0px !important;
 }
