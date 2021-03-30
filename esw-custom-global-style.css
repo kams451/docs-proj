@@ -267,3 +267,8 @@ a.primaryButton {
 	z-index: 9999;
 	position: relative;
 }
+
+/* Apps & Extensions */
+.rw_item_hover {
+	border-radius: 10px;	
+}
