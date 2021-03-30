@@ -237,6 +237,7 @@ a.primaryButton {
 	top: 15%;
 	/*left: 35%;*/
 	width: 100%;
+	text-align: center !important;
 	color: rgba(16, 24, 32, 1);
 }
 .iconcard2-text {
