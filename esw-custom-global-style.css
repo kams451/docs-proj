@@ -306,3 +306,19 @@ a.primaryButton {
 	border-radius: 10px;
 }
 
+.carbonads.carbon2 {
+	max-width: 20%;
+	border: 1px solid #FFFFFF;
+	-moz-box-shadow: 0 0 5px #605e5e;
+	-webkit-box-shadow: 0 0 5px #605e5e;
+	box-shadow: 0 0 1px #605e5e;
+	padding: 15px 15px 15px 100px;
+	margin: 0 5.11% 0 0;
+}
+
+.carbon2 .carbon-icon {
+	margin-left: -90px;
+	background: none;
+	margin-top: 25px;
+}
+
