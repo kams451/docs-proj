@@ -361,15 +361,9 @@ a.primaryButton {
 
 .appBox .subHeading {
 	margin-bottom: 20px !important;
-}
-
-.mage .subHeading {
 	color: #003666 !important;
 }
 
-.shop .subHeading {
-	color: #003666 !important;
-}
 
 .appImgBox {
 	display: inline-block;
