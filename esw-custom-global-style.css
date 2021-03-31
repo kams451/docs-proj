@@ -359,11 +359,11 @@ a.primaryButton {
 }
 
 .rw_layout_group:nth-child(3) {
-	background: #191970 !important;
+	background: #003666 !important;
 }
 
 .rw_layout_group:nth-child(4) {
-	background: #A9A9A9 !important;
+	background: #9f9fa3 !important;
 }
 
 .appBox {
@@ -372,7 +372,15 @@ a.primaryButton {
 }
 
 .appBox .subHeading {
-	margin-bottom: 15px;
+	margin-bottom: 20px !important;
+}
+
+.mage .subHeading {
+	color: silver !important;
+}
+
+.shop .subHeading {
+	color: #003666 !important;
 }
 
 .appImgBox {
