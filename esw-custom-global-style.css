@@ -364,7 +364,7 @@ a.primaryButton {
 }
 
 .mage .subHeading {
-	color: silver !important;
+	color: #003666 !important;
 }
 
 .shop .subHeading {
@@ -381,7 +381,7 @@ a.primaryButton {
 
 .aul {
 	list-style: square;
-	/*color: #FFFFFF;*/
+	color: #333333;
 }
 
 .aul li {
