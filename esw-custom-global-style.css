@@ -354,6 +354,6 @@ a.primaryButton {
 }
 
 /*------------------------------------------------------ Apps and Extensions ----------------------------------- */
-.rw_layout_group:nth-child(1) {
+.rw_layout_group:nth-child(2) {
 	background: #009EDB !important;
 }
