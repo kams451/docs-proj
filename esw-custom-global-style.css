@@ -381,7 +381,7 @@ a.primaryButton {
 
 .aul {
 	list-style: square;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
 }
 
 .aul li {
