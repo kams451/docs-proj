@@ -358,6 +358,14 @@ a.primaryButton {
 	background: #009EDB !important;
 }
 
+.rw_layout_group:nth-child(3) {
+	background: #191970 !important;
+}
+
+.rw_layout_group:nth-child(4) {
+	background: #A9A9A9 !important;
+}
+
 .appBox {
 	display: inline-block;
 	margin: 45px 0 35px 0;
@@ -372,6 +380,7 @@ a.primaryButton {
 	background: #FFFFFF;
 	border-radius: 10px;
 	margin-left: 20%;
+	overflow: hidden;
 }
 
 .aul {
@@ -382,3 +391,9 @@ a.primaryButton {
 .aul li {
 	margin-bottom: 7px;	
 }
+
+.mageimg {
+	margin-left: 0%;
+	margin-right: 20%;
+}
+
