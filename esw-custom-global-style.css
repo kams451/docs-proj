@@ -357,3 +357,24 @@ a.primaryButton {
 .rw_layout_group:nth-child(2) {
 	background: #009EDB !important;
 }
+
+.appBox {
+	display: inline-block;
+	margin: 45px 0 35px 0;
+}
+
+.appBox .subHeading {
+	margin-bottom: 15px;
+}
+
+.appImgBox {
+	display: inline-block;
+	background: #FFFFFF;
+	border-radius: 10px;
+	margin-left: 20%;
+}
+
+.lic {
+	color: #FFFFFF;
+	margin-bottom: 7px;
+}
