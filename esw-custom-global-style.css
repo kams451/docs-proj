@@ -374,7 +374,11 @@ a.primaryButton {
 	margin-left: 20%;
 }
 
-.lic {
+.aul {
+	list-style: square;
 	color: #FFFFFF;
-	margin-bottom: 7px;
+}
+
+.aul li {
+	margin-bottom: 7px;	
 }
