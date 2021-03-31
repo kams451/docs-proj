@@ -352,3 +352,8 @@ a.primaryButton {
 .imageboard.lastboard {
 	margin-right: 0px !important;
 }
+
+/*------------------------------------------------------ Apps and Extensions ----------------------------------- */
+.rw_layout_group:nth-child(1) {
+	background: #009EDB !important;
+}
