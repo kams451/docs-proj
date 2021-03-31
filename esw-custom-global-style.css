@@ -354,18 +354,6 @@ a.primaryButton {
 }
 
 /*------------------------------------------------------ Apps and Extensions ----------------------------------- */
-.rw_layout_group:nth-child(2) {
-	background: #009EDB !important;
-}
-
-.rw_layout_group:nth-child(3) {
-	background: #003666 !important;
-}
-
-.rw_layout_group:nth-child(4) {
-	background: #9f9fa3 !important;
-}
-
 .appBox {
 	display: inline-block;
 	margin: 45px 0 35px 0;
