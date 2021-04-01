@@ -1,2 +1,4 @@
 //HLJS 
-hljs.highlightAll()
+setTimeout(
+  hljs.highlightAll();
+  , 3000);
