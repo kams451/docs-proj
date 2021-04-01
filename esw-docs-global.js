@@ -1,5 +1,6 @@
 //HLJS 
 setTimeout(function(){ 
   hljs.highlightAll();
+  hljs.initLineNumbersOnLoad();
   console.log("XYZ");
-}, 30000);
+}, 10000);
