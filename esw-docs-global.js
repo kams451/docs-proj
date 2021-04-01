@@ -1,4 +1,5 @@
 //HLJS 
-setTimeout(
+setTimeout(function(){ 
   hljs.highlightAll();
-  , 3000);
+  console.log("XYZ");
+}, 30000);
