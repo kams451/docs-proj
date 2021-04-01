@@ -73,6 +73,30 @@
 }
  
 
+/* for block of numbers */
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 5px;
+
+    /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln-code {
+    padding-left: 10px;
+}
+
+
 /*--------------------------------------------------------------------------*/
 .material-icons.md-18, .material-icons-outlined.md-18 { font-size: 18px; }
 .material-icons.md-24, .material-icons-outlined.md-24 { font-size: 24px; }
