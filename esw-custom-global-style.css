@@ -83,17 +83,17 @@
     user-select: none;
 
     text-align: center;
-    color: #ccc;
-    border-right: 1px solid #CCC;
-    vertical-align: top;
-    padding-right: 5px;
+    color: #ccc !important;
+    border-right: 1px solid #CCC !important;
+    vertical-align: top !important;
+    padding-right: 5px !important;
 
     /* your custom style here */
 }
 
 /* for block of code */
 .hljs-ln-code {
-    padding-left: 10px;
+    padding-left: 10px !important;
 }
 
 
