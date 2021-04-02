@@ -1,7 +1,7 @@
 
-  AJS.toInit(function() {  
+  /*AJS.toInit(function() {  
       $( "#rw_navigation_menu a" ).on( "click", function() {
-        console.log("M Click");
+        console.log("M Click"); */
         //HLJS 
         setTimeout(function(){ 
           hljs.highlightAll();
@@ -10,6 +10,6 @@
           console.log("HL Init");
         }, 5000);
 
-
+/*
       });       
-  });
+  }); */
