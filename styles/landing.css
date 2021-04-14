@@ -1,0 +1,49 @@
+
+.rw_search_item {
+    padding-top: 0px !important;
+}
+
+.rw_search_item.rw_formatting_item .rw_search_module_container > div .rw_search_item .rw_search_icon {
+    bottom: auto !important;
+    left: auto !important;
+}
+
+#hWelcome {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: -40px !important;
+}
+
+.carbonads {
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    max-width: 31%;
+    padding: 15px 15px 15px 160px;
+    margin: 0.7rem 0;
+    overflow: hidden;
+    font-size: .8125rem;
+    line-height: 1.4;
+    text-align: left;
+    background-color: rgba(255,255,255,255.05);
+}
+
+.carbonads:hover {
+    background-color: rgba(0,0,0,0.04);
+}
+.carbon-icon {
+    float: left;
+    margin-top: 15px;
+    margin-left: -120px;
+    background: rgba(0,0,0,0.048);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgba(16, 24, 32, 1);
+}
+.ml3{margin-left: 3% !important;}
+.ml10{margin-left: 10% !important;}
+.ml13{margin-left: 13% !important;}
+.nl{clear: both;}
+
+a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
