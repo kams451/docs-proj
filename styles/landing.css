@@ -1,4 +1,28 @@
 
+/*Welcome Text */
+h1.welcome {
+    text-align: center;
+    font-family: Montserrat, sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(74,74,73,1);
+}
+
+.heroHomeText {
+    max-width: 820px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(74,74,73,1);
+}
+
+
+/*...................................Basic Styling ........................*/
 .rw_search_item {
     padding-top: 0px !important;
 }
@@ -14,6 +38,9 @@
     text-align: justify;
     margin-top: -40px !important;
 }
+
+
+
 
 .carbonads {
     border-radius: 10px;
