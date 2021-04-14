@@ -1,0 +1,39 @@
+<script type="text/javascript">
+    (function ($) {
+        let dt = Date.now();
+        AJS.toInit(function() {
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/base.css?v=" + dt, function( data ) {
+                $('head').append('<style type="text/css">' + data + '</style>');
+            });
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/syntax-highlight.css?v=" + dt, function( data ) {
+                $('head').append('<style type="text/css">' + data + '</style>');
+            });
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/landing.css?v=" + dt, function( data ) {
+                $('head').append('<style type="text/css">' + data + '</style>');
+            });
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/esw-custom-global-style.css?v=" + dt, function( data ) {
+                $('head').append('<style type="text/css">' + data + '</style>');
+            });
+        });
+    })
+    (AJS.$);
+</script>
+
+<script type="text/javascript">
+    (function ($) {
+        AJS.toInit(function () {
+            $.get("//raw.githubusercontent.com/kams451/docs-proj/main/js/esw-docs-global.js?v=1.5", function (data) {
+                $('#customs-esw-js').append('<script type="text/javascript">' + data);
+            });
+        });
+    })
+    (AJS.$);
+</script>
+<div id="customs-esw-js"></div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"
+        integrity="sha512-d00ajEME7cZhepRqSIVsQVGDJBdZlfHyQLNC6tZXYKTG7iwcF8nhlFuppanz8hYgXr8VvlfKh4gLC25ud3c90A=="
+        crossOrigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
