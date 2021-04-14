@@ -2,16 +2,16 @@
     (function ($) {
         let dt = Date.now();
         AJS.toInit(function() {
-            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/base.css?v=" + dt, function( data ) {
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/styles/base.css?v=" + dt, function( data ) {
                 $('head').append('<style type="text/css">' + data + '</style>');
             });
-            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/syntax-highlight.css?v=" + dt, function( data ) {
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/styles/syntax-highlight.css?v=" + dt, function( data ) {
                 $('head').append('<style type="text/css">' + data + '</style>');
             });
-            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/landing.css?v=" + dt, function( data ) {
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/styles/landing.css?v=" + dt, function( data ) {
                 $('head').append('<style type="text/css">' + data + '</style>');
             });
-            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/style/esw-custom-global-style.css?v=" + dt, function( data ) {
+            $.get( "//raw.githubusercontent.com/kams451/docs-proj/main/styles/esw-custom-global-style.css?v=" + dt, function( data ) {
                 $('head').append('<style type="text/css">' + data + '</style>');
             });
         });

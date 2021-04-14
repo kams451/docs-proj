@@ -129,3 +129,8 @@ span.rw_item_count{
     height: 36px !important;
     width: 36px !important;
 }
+
+
+.rw_layout_group:nth-child(even) {
+    background: rgba(243,245,247,1) !important;
+}
