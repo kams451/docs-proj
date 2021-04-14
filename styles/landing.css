@@ -95,6 +95,7 @@ h1.welcome {
     width: 100%;
     text-align: center !important;
     color: rgba(16, 24, 32, 1);
+    filter: invert(0.5) sepia(1) saturate(10) hue-rotate(138deg);
 }
 .iconcard2-text {
     position: absolute;
