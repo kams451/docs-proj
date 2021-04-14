@@ -24,6 +24,33 @@ h1.welcome {
 }
 
 
+/* icon cards  */
+/* Icon card */
+.iconcard {
+    width: 155px;
+    height: 125px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-left: 5%;
+    position: relative;
+}
+
+.iconcard-icon {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: rgba(16, 24, 32, 1);
+}
+.iconcard-text {
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
+
+
+
 /*...................................Basic Styling ........................*/
 .rw_search_item {
     padding-top: 0px !important;
@@ -44,6 +71,7 @@ h1.welcome {
 
 .carbon-box {
     text-align: center;
+    margin-top: -40px;
 }
 
 .carbonads {
