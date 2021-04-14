@@ -29,7 +29,6 @@ h1.welcome {
     width: 155px;
     height: 125px;
     display: inline-block;
-    vertical-align: middle;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 5px;
     margin-left: 5%;
@@ -40,12 +39,20 @@ h1.welcome {
     position: absolute;
     top: 15%;
     left: 30%;
-    color: rgba(16, 24, 32, 1);
+    color: rgba(50, 50, 50, 1);
+    background: rgba(112,201,191,1);
 }
+
 .iconcard-text {
     position: absolute;
     bottom: 5%;
-    left: 35%;
+    left: 30%;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4A49;
 }
 
 
