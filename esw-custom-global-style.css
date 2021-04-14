@@ -3,9 +3,9 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css'); */
 
 
-@import "./styles/base.css";
-@import "./styles/syntax-highlight.css";
-@import "./styles/landing.css";
+@import "https://raw.githubusercontent.com/kams451/docs-proj/main/styles/base.css";
+@import "https://raw.githubusercontent.com/kams451/docs-proj/main/styles/syntax-highlight.css";
+@import "https://raw.githubusercontent.com/kams451/docs-proj/main/styles/landing.css";
 
 
 
