@@ -24,7 +24,6 @@ h1.welcome {
 }
 
 
-/* icon cards  */
 /* Icon card */
 .iconcard {
     width: 155px;
@@ -49,6 +48,20 @@ h1.welcome {
     left: 35%;
 }
 
+
+.leftBlock {
+    width: 25%;
+    display: inline-block;
+}
+
+.devH3 {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgba(74,74,73,1);
+}
 
 
 /*...................................Basic Styling ........................*/

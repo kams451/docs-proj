@@ -15,6 +15,14 @@
     font-family: 'Nunito Sans', sans-serif !important;
 }
 
+p {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px;
+    line-height: 16px;
+}
+
 #rw_adf_app {
     font-family: 'Nunito Sans', sans-serif !important;
 }
