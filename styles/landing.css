@@ -76,6 +76,43 @@ h1.welcome {
 }
 
 
+
+.iconcard2 {
+    width: 155px;
+    height: 125px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+
+.iconcard2-icon {
+    position: absolute;
+    top: 15%;
+    /*left: 35%;*/
+    width: 100%;
+    text-align: center !important;
+    color: rgba(16, 24, 32, 1);
+}
+.iconcard2-text {
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4A49;
+}
+
+.iconcard:hover, .iconcard2:hover {
+    background-color: rgba(0,0,0,0.04);
+    text-decoration: none !important;
+}
+
 /*...................................Basic Styling ........................*/
 .rw_search_item {
     padding-top: 0px !important;
