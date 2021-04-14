@@ -42,13 +42,15 @@ h1.welcome {
 }
 
 
-
+.carbon-box {
+    text-align: center;
+}
 
 .carbonads {
     border-radius: 10px;
     display: inline-block;
     position: relative;
-    max-width: 25%;
+    max-width: 27%;
     min-height: 90px;
     padding: 15px 15px 15px 100px;
     margin: 0.7rem 0;
