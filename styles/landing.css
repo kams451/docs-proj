@@ -39,8 +39,9 @@ h1.welcome {
     position: absolute;
     top: 15%;
     left: 30%;
-    color: rgba(50, 50, 50, 1);
-    background: rgba(112,201,191,1);
+    /*color: rgba(50, 50, 50, 1);
+    background: rgba(112,201,191,1);*/
+    filter: invert(0.5) sepia(1) saturate(10) hue-rotate(138deg);
 }
 
 .iconcard-text {
@@ -55,6 +56,9 @@ h1.welcome {
     color: #4A4A49;
 }
 
+.platform-block {
+    text-align: center;
+}
 
 .leftBlock {
     width: 25%;
