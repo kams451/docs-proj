@@ -142,4 +142,6 @@ span.rw_item_count{
 
 .rw_layout_group:nth-child(3) {
     background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/bottom-bg.png") top left no-repeat !important;
+    margin-top: -30px;
+    padding-top: 80px;
 }
