@@ -129,6 +129,11 @@ span.rw_item_count{
     text-decoration: underline;
 }
 
+#rw_footer .rw_layout_group:nth-child(2n), #rw_footer .rw_layout_group:nth-child(2n+1) {
+    background: transparent !important;
+    padding: unset;
+}
+
 /* Writer Avatar */
 .rw_page_byline {
     visibility: hidden !important;
