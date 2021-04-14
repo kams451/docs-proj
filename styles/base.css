@@ -133,5 +133,13 @@ span.rw_item_count{
 
 
 .rw_layout_group:nth-child(even) {
-    background: rgba(243,245,247,1) !important;
+    background-color: rgba(243,245,247,1) !important;
+}
+
+.rw_layout_group:nth-child(1) {
+    background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/top-bg.png") bottom left no-repeat !important;
+}
+
+.rw_layout_group:nth-child(3) {
+    background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/bottom-bg.png") top left no-repeat !important;
 }
