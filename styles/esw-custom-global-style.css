@@ -22,6 +22,19 @@ a.primaryButton {
 	margin-top: 45px !important;
 }
 
+a.secondaryButton {
+	clear: both;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 32px;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(112,201,191,1);
+	text-decoration: none;
+	margin-top: 45px !important;
+}
+
 /* Icon card */
 .iconcard {
 	width: 20%;
