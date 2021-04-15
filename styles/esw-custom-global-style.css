@@ -150,6 +150,13 @@ a.secondaryButton {
 	vertical-align: top;
 }
 
+.platformIMG {
+	width: 400px;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px #565656;
+	margin-left: 50px;
+}
+
 
 /*------------------------------------------------------ Apps and Extensions ----------------------------------- */
 .appBox {
