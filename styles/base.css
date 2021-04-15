@@ -149,20 +149,25 @@ span.rw_item_count{
     background-color: rgba(243,245,247,1) !important;
 }
 
-.rw_layout_group:nth-child(even)::after {
-    background-color: rgba(243,245,247,1) !important;
-}
-
-.rw_layout_group:nth-child(2)::after {
+.rw_layout_group:nth-child(1) {
     transform: skew(0deg, 2deg);
     z-index: 50;
 }
 
-.rw_layout_group:nth-child(2) .rw_table{
+.rw_layout_group:nth-child(1) .rw_table{
     transform: skew(0deg, -2deg);
 }
 
-.rw_layout_group:nth-child(3)::after {
+.rw_layout_group:nth-child(2) {
+    transform: skew(0deg, -2deg);
+    z-index: 50;
+}
+
+.rw_layout_group:nth-child(2) .rw_table{
+    transform: skew(0deg, 2deg);
+}
+
+.rw_layout_group:nth-child(3) {
     transform: skew(0deg, -2deg);
     z-index: 51;
 }
