@@ -150,12 +150,12 @@ span.rw_item_count{
 }
 
 .rw_layout_group:nth-child(1) {
-    background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/top-bg.png") 0% 111% no-repeat !important;
-    padding-bottom: 125px;
+    /*background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/top-bg.png") 0% 111% no-repeat !important;
+    padding-bottom: 125px; */
 }
 
 .rw_layout_group:nth-child(3) {
-    background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/bottom-bg.png") 0% -14% no-repeat !important;
+    /*background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/bottom-bg.png") 0% -14% no-repeat !important;
     margin-top: -45px;
-    padding-top: 100px;
+    padding-top: 100px; */
 }
