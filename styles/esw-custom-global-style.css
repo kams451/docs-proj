@@ -140,6 +140,17 @@ a.secondaryButton {
 	margin-right: 0px !important;
 }
 
+
+/*..................................................... platform & Services ....................................*/
+
+.platformServices {
+	padding-top: 40px;
+	width: 45%;
+	display: inline-grid;
+	vertical-align: top;
+}
+
+
 /*------------------------------------------------------ Apps and Extensions ----------------------------------- */
 .appBox {
 	display: inline-block;
