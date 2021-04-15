@@ -60,6 +60,7 @@ h1.welcome {
 
 .platform-block {
     text-align: center;
+    padding: 20px 0 30px 0 !important;
 }
 
 .leftBlock {
