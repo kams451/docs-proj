@@ -160,7 +160,7 @@ span.rw_item_count{
 
 .rw_layout_group:nth-child(2) {
     transform: skew(0deg, -2deg);
-    z-index: 50;
+    z-index: 51;
 }
 
 .rw_layout_group:nth-child(2) .rw_table{
@@ -169,7 +169,7 @@ span.rw_item_count{
 
 .rw_layout_group:nth-child(3) {
     transform: skew(0deg, -2deg);
-    z-index: 51;
+    z-index: 52;
 }
 
 .rw_layout_group:nth-child(3) .rw_table{
