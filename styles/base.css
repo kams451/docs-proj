@@ -149,13 +149,20 @@ span.rw_item_count{
     background-color: rgba(243,245,247,1) !important;
 }
 
-.rw_layout_group:nth-child(1) {
-    /*background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/top-bg.png") 0% 111% no-repeat !important;
-    padding-bottom: 125px; */
+.rw_layout_group:nth-child(2) {
+    transform: skew(0deg, 2deg);
+    z-index: 50;
+}
+
+.rw_layout_group:nth-child(2) .rw_table{
+    transform: skew(0deg, -2deg);
 }
 
 .rw_layout_group:nth-child(3) {
-    /*background: #FFFFFF url("https://raw.githubusercontent.com/kams451/docs-proj/main/assets/images/bg/bottom-bg.png") 0% -14% no-repeat !important;
-    margin-top: -45px;
-    padding-top: 100px; */
+    transform: skew(0deg, -2deg);
+    z-index: 51;
+}
+
+.rw_layout_group:nth-child(3) .rw_table{
+    transform: skew(0deg, 2deg);
 }
