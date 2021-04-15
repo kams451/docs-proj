@@ -149,7 +149,11 @@ span.rw_item_count{
     background-color: rgba(243,245,247,1) !important;
 }
 
-.rw_layout_group:nth-child(2) {
+.rw_layout_group:nth-child(even)::after {
+    background-color: rgba(243,245,247,1) !important;
+}
+
+.rw_layout_group:nth-child(2)::after {
     transform: skew(0deg, 2deg);
     z-index: 50;
 }
@@ -158,7 +162,7 @@ span.rw_item_count{
     transform: skew(0deg, -2deg);
 }
 
-.rw_layout_group:nth-child(3) {
+.rw_layout_group:nth-child(3)::after {
     transform: skew(0deg, -2deg);
     z-index: 51;
 }
