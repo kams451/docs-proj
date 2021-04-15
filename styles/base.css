@@ -161,6 +161,6 @@ span.rw_item_count{
 }
 
 .rw_layout_group:nth-child(4),
-rw_layout_group:nth-child(4) .rw_table {
+.rw_layout_group:nth-child(4) .rw_table {
     transform: skew(0deg, 0deg) !important;
 }
