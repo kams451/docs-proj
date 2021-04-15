@@ -155,11 +155,12 @@ span.rw_item_count{
     transform: skew(0deg, -2deg);
 }
 
-.rw_layout_group:last-child {
+.rw_layout_group:last-child,
+.rw_layout_group:last-child .rw_table {
     transform: skew(0deg, 0deg) !important;
 }
 
-
-.rw_layout_group:nth-child(4) {
+.rw_layout_group:nth-child(4),
+rw_layout_group:nth-child(4) .rw_table {
     transform: skew(0deg, 0deg) !important;
 }
