@@ -147,10 +147,10 @@ span.rw_item_count{
 
 .rw_layout_group:nth-child(even) {
     background-color: rgba(243,245,247,1) !important;
-    transform: skew(0deg, 2deg);
+    /*transform: skew(0deg, 2deg);*/
 }
 
-
+/*
 .rw_layout_group:nth-child(even) .rw_table{
     transform: skew(0deg, -2deg);
 }
@@ -163,4 +163,4 @@ span.rw_item_count{
 .rw_layout_group:nth-child(4),
 .rw_layout_group:nth-child(4) .rw_table {
     transform: skew(0deg, 0deg) !important;
-}
+} */
