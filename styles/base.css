@@ -27,6 +27,14 @@ p {
     font-family: 'Nunito Sans', sans-serif !important;
 }
 
+#rw_header {
+    position: fixed;
+}
+
+#rw_main {
+   margin-top: 60px;
+}
+
 #rw_header .rw_logo {
     float: left;
     width: auto;
