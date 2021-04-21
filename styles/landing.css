@@ -89,6 +89,7 @@ h1.welcome {
     position: relative;
     background: rgba(255, 255, 255, 1);
     margin-bottom: 25px;
+    margin-left: -40px;
 }
 
 .iconcard2-icon {
@@ -196,9 +197,16 @@ h1.welcome {
 a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
 
 
-@media only screen and (min-width: 1440px) {
+/*------------------------------ Tablet/ Mobile ------------------------*/
+@media only screen and (max-width: 1440px) {
     .carbonads {
         min-height: 110px;
     }
+}
 
+@media only screen and (max-width: 1440px) {
+    .iconcard2 {
+        transform: scale(0.75);
+        margin-left: 50px;
+    }
 }
