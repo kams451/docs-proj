@@ -227,3 +227,64 @@ a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
         margin-left: -50px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .ml10{margin-left: 2.5% !important;}
+
+    .material-icons.md-36, .material-icons-outlined.md-36,.material-icons-two-tone.md-36 {
+        font-size: 20px;
+    }
+
+    .material-icons.md-64, .material-icons-outlined.md-64, .material-icons-two-tone.md-64 {
+        font-size: 48px;
+    }
+
+    .carbonads {
+        max-width: 30%;
+        min-height: 90px;
+        padding: 15px 15px 15px 70px;
+        margin: 0 0;
+        overflow: hidden;
+        font-size: .8125rem;
+        line-height: 1.4;
+        text-align: left;
+        background-color: rgba(255,255,255,255.05);
+    }
+
+    .carbon-icon {
+        margin-top: 0;
+        margin-left: -60px;
+    }
+
+    .devH3 {
+        font-size: 1.07em;
+    }
+
+    a.secondaryButton {
+        padding: 8px 15px;
+    }
+
+    .iconcard {
+        transform: none;
+        margin-left: 1%;
+        width: 120px;
+        height: 90px;
+    }
+
+    .iconcard-text {
+        width: 120px;
+    }
+
+    .iconcard2 {
+        width: 120px;
+        height: 90px;
+        margin-left: -50px;
+        transform: scale(0.75);
+    }
+
+    .iconcard2-text {
+        width: 120px;
+        font-size: 12px;
+    }
+
+}
