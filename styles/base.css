@@ -150,6 +150,16 @@ span.rw_item_count{
     /*transform: skew(0deg, 2deg);*/
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + #rw_main {
+    padding-top: 60px;
+}
+
 /*
 .rw_layout_group:nth-child(even) .rw_table{
     transform: skew(0deg, -2deg);
