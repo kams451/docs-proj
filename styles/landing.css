@@ -194,3 +194,11 @@ h1.welcome {
 .nl{clear: both;}
 
 a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
+
+
+@media only screen and (min-width: 1440px) {
+    .carbonads {
+        min-height: 110px;
+    }
+
+}
