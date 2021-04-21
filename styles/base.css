@@ -168,6 +168,21 @@ span.rw_item_count{
     padding-top: 60px;
 }
 
+
+#rw_navigation_menu ul li a:after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -4px;
+    width: 0;
+    height: 3px;
+    background: #68c5b8;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
 /*
 .rw_layout_group:nth-child(even) .rw_table{
     transform: skew(0deg, -2deg);
