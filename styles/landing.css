@@ -213,6 +213,10 @@ a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
         margin-top: 0;
     }
 
+    .devH3 {
+        font-size: 1.5em;
+    }
+
     .iconcard {
         transform: scale(0.75);
         margin-left: 2.5%;
