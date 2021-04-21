@@ -205,12 +205,16 @@ a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
 }
 
 @media only screen and (max-width: 1024px) {
+    .carbonads {
+        min-height: 130px;
+    }
+
     .iconcard {
         transform: scale(0.75);
         margin-left: 2.5%;
     }
     .iconcard2 {
         transform: scale(0.75);
-        margin-left: 50px;
+        margin-left: -50px;
     }
 }
