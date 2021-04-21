@@ -287,4 +287,7 @@ a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
         font-size: 12px;
     }
 
+    #rw_footer .rw_html_module {
+        font-size: 13px !important;
+    }
 }
