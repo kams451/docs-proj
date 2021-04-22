@@ -208,6 +208,22 @@ span.rw_item_count{
     width: 35px;
 }
 
+#rw_header #rw_my_menu ul li > *.rw_icon_style {
+    background-color: transparent !important;
+}
+
+.rw_searchjsd_module.rw_module {
+    margin-top: -15px;
+}
+
+.rw_search_item.rw_formatting_item .rw_search_module_container > div .rw_search_item {
+    box-shadow: 4px 4px 20px 5px rgba(0,0,0, 0.05) !important;
+}
+
+.rw_search_item.rw_formatting_item.rw_search_box_theme_gray .rw_search_module_container > div .rw_search_item input {
+    background: rgb(255 255 255) !important;
+}
+
 /*
 .rw_layout_group:nth-child(even) .rw_table{
     transform: skew(0deg, -2deg);
