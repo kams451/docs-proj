@@ -173,14 +173,19 @@ a.secondaryButton {
 	display: inline-block;
 	background: #FFFFFF;
 	border-radius: 10px;
-	margin: 55px 25px 0 30px;
+	margin: 65px 25px 0 30px;
 	overflow: hidden;
 	float: right;
+}
+
+.appBox a.secondaryButton {
+	margin-left: 20px !important;
 }
 
 .aul {
 	list-style: square;
 	color: #333333;
+	margin-bottom: 30px;
 }
 
 .aul li {

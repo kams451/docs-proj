@@ -32,7 +32,7 @@ p {
 }
 
 #rw_main {
-   margin-top: 60px !important;
+   margin-top: 80px !important;
 }
 
 #rw_header .rw_logo {
@@ -127,6 +127,9 @@ span.rw_item_count{
     margin-left: 10%;
 }
 
+.page_byline {
+    display: none !important;
+}
 
 #rw_footer .rw_item_content {
     margin: 0px auto !important;
