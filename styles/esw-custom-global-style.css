@@ -257,7 +257,7 @@ span.card-icon {
 	.card-icon .material-icons-two-tone.md-48 {
 		font-size: 24px !important;
 	}
-	.codeImage {
+	.codeImage img {
 		transform: scale(0.65);
 	}
 	.appBox {
