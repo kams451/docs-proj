@@ -233,12 +233,31 @@ span.card-icon {
 	.appBox {
 		width: 65%;
 	}
+
+	.midCards {
+		min-height: 145px;
+	}
 }
+
+@media only screen and (max-width: 1280px) {
+	.midCards {
+		min-height: 179px;
+		width: 25%;
+	}
+}
+
 
 @media only screen and (max-width: 1024px) {
 	.mageimg {
 		margin-right: 0;
 	}
+	h2.card-header {
+		font-size: 16px;
+	}
+	.card-icon .material-icons-two-tone.md-48 {
+		font-size: 24px;
+	}
+
 
 	.appBox {
 		width: 57%;
