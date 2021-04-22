@@ -204,6 +204,9 @@ span.rw_item_count{
     transition: all .1s ease-in-out;
 }
 
+#rw_navigation_menu ul li a.rw_active:after {
+    width: 35px;
+}
 
 /*
 .rw_layout_group:nth-child(even) .rw_table{
