@@ -173,8 +173,9 @@ a.secondaryButton {
 	display: inline-block;
 	background: #FFFFFF;
 	border-radius: 10px;
-	margin-left: 80px;
+	margin: 55px 25px 0 30px;
 	overflow: hidden;
+	float: right;
 }
 
 .aul {
@@ -187,6 +188,7 @@ a.secondaryButton {
 }
 
 .mageimg {
-	margin-left: 0%;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 50px;
+	float: revert;
 }
