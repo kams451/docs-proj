@@ -145,6 +145,11 @@ span.rw_item_count{
     padding: unset;
 }
 
+#rw_footer {
+    box-shadow: none !important;
+}
+
+
 /* Writer Avatar */
 .rw_page_byline {
     visibility: hidden !important;
