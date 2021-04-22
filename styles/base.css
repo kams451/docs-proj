@@ -23,6 +23,15 @@ p {
     line-height: 16px;
 }
 
+.rw_adf_document a:link, .rg_adf_document a:visited {
+    color: #4a4a49 !important;
+    text-decoration: underline !important;
+}
+
+.rg_adf_document a:hover {
+    color: #68C5B8 !important;
+}
+
 #rw_adf_app {
     font-family: 'Nunito Sans', sans-serif !important;
 }
