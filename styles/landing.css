@@ -197,7 +197,8 @@ h1.welcome {
 a.carbonadsLinks {color: #111111 !important; text-decoration: none !important;}
 
 
-.rw_primary_text ~ .rw_table .rw_module:first-child, .rw_secondary_text ~ .rw_table .rw_module:first-child {
+.rw_primary_text ~ .rw_table .rw_module:first-child, .rw_secondary_text ~ .rw_table .rw_module:first-child,
+.rw_primary_text ~ .rw_table .rw_module:nth-child(2), .rw_secondary_text ~ .rw_table .rw_module:nth-child(2) {
     padding: 0 25px 0 25px;
 }
 
