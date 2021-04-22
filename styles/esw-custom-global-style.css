@@ -199,6 +199,31 @@ a.secondaryButton {
 	float: left;
 }
 
+
+/* Developer Tools */
+.midCards {
+	display: inline-grid;
+	max-width: 27%;
+	margin: 0px 1.4%;
+	padding: 15px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+
+.midCards:hover {
+	background-color: rgba(0,0,0,0.04);
+}
+
+h2.card-header {
+	font-size: 18px;
+}
+
+span.card-icon {
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+
 /*------------------------------ Tablet/ Mobile ------------------------*/
 @media only screen and (max-width: 1440px) {
 	.mageimg {
