@@ -195,5 +195,16 @@ a.secondaryButton {
 .mageimg {
 	margin-left: 0;
 	margin-right: 50px;
-	float: revert;
+	float: left;
+}
+
+/*------------------------------ Tablet/ Mobile ------------------------*/
+@media only screen and (max-width: 1440px) {
+	.mageimg {
+		margin-right: 0;
+	}
+
+	.appBox {
+		width: 65%;
+	}
 }
