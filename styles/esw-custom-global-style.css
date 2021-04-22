@@ -255,10 +255,11 @@ span.card-icon {
 		font-size: 16px;
 	}
 	.card-icon .material-icons-two-tone.md-48 {
-		font-size: 24px;
+		font-size: 24px !important;
 	}
-
-
+	.codeImage {
+		transform: scale(0.65);
+	}
 	.appBox {
 		width: 57%;
 	}
