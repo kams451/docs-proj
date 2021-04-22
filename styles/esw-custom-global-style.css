@@ -62,16 +62,17 @@ a.secondaryButton {
 
 /* Developer Tools */
 .heroV1 {
+
 	position: relative;
 }
 
 .subHead {
-	width: 70%;
+	max-width: 50%;
 	padding-top: 35px !important;
 }
 
 .pWithImage {
-	width: 50%;
+	max-width: 50%;
 	padding-bottom: 35px;
 }
 
