@@ -168,15 +168,33 @@ span.rw_item_count{
     padding-top: 60px;
 }
 
+/* Header Menu Navigation Highlighting */
+
+#rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a:hover, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a.rw_active {
+    background-color: transparent !important;
+}
+
+#rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li {
+    display: grid;
+    padding: 10px 0;
+    position: relative;
+}
 
 #rw_navigation_menu ul li a:after {
     content: '';
     position: absolute;
     left: 10px;
-    bottom: -4px;
+    bottom: 14px;
     width: 0;
     height: 3px;
     background: #68c5b8;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+#rw_navigation_menu ul li a:hover:after {
+    width: 35px;
     -webkit-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
