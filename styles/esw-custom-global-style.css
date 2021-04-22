@@ -208,3 +208,13 @@ a.secondaryButton {
 		width: 65%;
 	}
 }
+
+@media only screen and (max-width: 1024px) {
+	.mageimg {
+		margin-right: 0;
+	}
+
+	.appBox {
+		width: 57%;
+	}
+}
