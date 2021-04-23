@@ -10,6 +10,7 @@ setTimeout(function(){
   (function ($) {
     AJS.toInit(function () {
       $( "#tryCheckout" ).click(function(e) {
+        console.log("echo");
         e.preventDefault();
         let form = new FormData();
         form.append("grant_type", "client_credentials");
