@@ -222,6 +222,21 @@ span.rw_item_count{
     transition: all .1s ease-in-out;
 }
 
+#rw_navigation_menu ul li:first-child a:hover:after {
+    width: 0 !important;
+}
+
+#rw_navigation_menu ul li:first-child a{
+    font-weight: bold;
+    color: rgba(104, 197, 184, 1) !important;
+    border: 1px solid rgba(104, 197, 184, 1) !important;
+    border-radius: 0 !important;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+
 #rw_navigation_menu ul li a.rw_active:after {
     width: 35px;
 }
