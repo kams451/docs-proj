@@ -9,11 +9,8 @@ setTimeout(function(){
 
   (function ($) {
     AJS.toInit(function () {
-      $( "#tryCheckout" ).click(function(e) {
+      $( "#rw_navigation_menu ul li a" ).click(function(e) {
         console.log("echo");
       })
-    });
-    AJS.bind('rw-categories:menu-loaded', function(e, $el, categories){
-      console.log("Loaded");
     });
   })(AJS.$);
