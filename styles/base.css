@@ -260,6 +260,18 @@ span.rw_item_count{
     background: rgb(255 255 255) !important;
 }
 
+
+/*Sandbox Banner */
+h1.stageBanner {
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    color: rgba(255, 17, 17, 0.21);
+    writing-mode: vertical-rl;
+    font-size: xxx-large;
+    letter-spacing: 5rem;
+}
+
 /*
 .rw_layout_group:nth-child(even) .rw_table{
     transform: skew(0deg, -2deg);
